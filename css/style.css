@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+body{
+  background: #39004d;
+  color: #f1f1f1;
+  width: 100%;
+  font-family:'Noto Sans JP', sans-serif;
+  display: block;
+  box-sizing: border-box;
+}
+header{
+  /* border:2px dotted #f1f1f1; */
+  width: 100%;
+  position: relative;
+}
+
+
+div.header-nav{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 80px;
+}
+
+#nav{
+  float:right;
+  }
+
+a {
+    text-decoration: none;
+    color: violet;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.fa-anchor{
+  float: left;
+  color: violet;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+.nav-list {
+  display: inline-block;
+    border: 2px solid violet;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    margin: 19px 30px 0px 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: violet;
+}
+
+.profile{
+  width: 100%;
+  clear: both;
+  /* border: 2px solid blue; */
+  height: 400px;
+
+}
+
+.card{
+  display: inline-block;
+  /* border: 2px solid green; */
+  width: 450px;
+  float: left;
+  margin: 20px 10px 10px 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.welcome{
+  text-align: center;
+  /* width: 500px; */
+  display: inline-block;
+  /* border: 2px solid violet; */
+  line-height: 40px;
+  float: right;
+  padding: 10px;
+  margin: 100px 150px 0px 0px;
+  color: violet;
+  text-shadow:
+
+}
+
+.profile .card img{
+  width: 250px;
+  height: 250px;
+  clear: both;
+  border: 8px dashed violet;
+  border-radius: 100%;
+}
+
+.card img {
+  padding: 5px;
+  margin: 0px auto;
+}
+
+
+ul{
+  list-style-type: disc;
+  display: inline-block;
+}
+
+main{
+  clear: both;
+  min-width: 576px;
+  width: 100%;
+  margin: 0 auto;
+}
+#one{
+  background: rgba(0,0,0,0.2);
+  /* border-top: 2px dotted #f1f1ff; */
+position: static;
+width: 100%;
+
+}
+.stack{
+  width:100%;
+  /* border: 2px dotted #f1f1f1; */
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  background: #c266ff;
+  color: #39004d;
+  margin: 50px 0px 0px 0px;
+}
+
+.project{
+  idth:100%;
+  /* border: 2px dotted #f1f1f1; */
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  background: #c266ff;
+  color: #39004d;
+  margin: 50px 0px 0px 0px;
+  }
+
+
+.stack-group{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid violet;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 40px;
+  border-radius: 20px;
+  background-color: #39004d;
+  color: violet;
+}
+
+/* #frontend{
+
+  height: 100%;
+} */
+
+
+.project-group{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid violet;
+  text-align:center;
+  padding: 10px;
+  margin: 20px 40px;
+  border-radius: 20px;
+  background-color: #39004d;
+  color: violet;
+}
+
+.project-group span {
+  display: block;
+}
+
+.education{
+  line-height: 35px;
+  font-size: 18px;
+  border: 1px solid pink;
+  width: 100%;
+  text-align: center;
+   color: violet;
+
+}
+
+#two{
+  clear: both;
+  position: relative;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  color: violet;
+
+}
+.contact-form{
+  width: 400px;
+  margin: 10px auto;
+  line-height: 2rem;
+
+}
+
+.form-group{
+  padding: 8px;
+}
+input[type="text"], input[type="email"]{
+  background-color: #d699ff;
+  height: 10px;
+  border-radius: 10px;
+  padding: 20px 0px 20px 20px;
+}
+
+textarea{
+  border-radius: 10px;
+  background-color: #d699ff;
+  padding: 20px 0px 20px 20px;
+
+}
+
+::placeholder{
+  font-style: italic;
+  opacity: 0.8;
+}
+textarea ::placeholder{
+  /* font-family: sans-serif; */
+}
+button{
+  width: 120px;
+  padding: 10px;
+  color: violet;
+  background-color: #1f0033;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid violet;
+  border-radius: 20px;
+  text-transform: uppercase;
+
+}
+
+footer{
+  border-top: 2px solid #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
