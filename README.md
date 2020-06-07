@@ -1,1 +1,1 @@
-This is just a static website tha displays my profile
+#This is just a static website tha displays my profile
